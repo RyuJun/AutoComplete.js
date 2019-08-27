@@ -22,7 +22,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AutoComplete</title>
-  <link href="./carousel.css" rel="stylesheet"> <!--추가-->
   <script src="./AutoComplete.min.js" type="text/javascript"></script><!--추가-->
 </head>
 <body>
