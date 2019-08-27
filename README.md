@@ -85,6 +85,7 @@ var list = [
       // ......
     ]; 
 
-var data = list.map(item => item.N);
+  list = list.map(item => item.N);
+  new AutoComplete(document.querySelector('#autocomplete'), list);
 // data : ["라그나로크 제로", "니드포스피드엣지", "리니지M", "오버히트", "배틀그라운드", "테라m" ... ]
 ```
