@@ -66,8 +66,8 @@ var AutoComplete =
     }, {
       key: "_checkInArray",
       value: function _checkInArray(array1, array2) {
-        let checkArray = [];
-        let checkResult = true;
+        var checkArray = [];
+        var checkResult = true;
         for (var i = 0; i < array2.length; i++) {
           checkArray.push(array1[i] === array2[i] ? true : false);
         }
